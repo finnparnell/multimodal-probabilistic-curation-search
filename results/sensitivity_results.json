@@ -1,0 +1,386 @@
+{
+  "pf=0.0_num_trials=1": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.023809523809523808,
+      "modality_balance": 1.0,
+      "latency": 0.0017787694931030273
+    },
+    "flickr30k": {
+      "precision@10": 0.1,
+      "ndcg@10": 0.8249352129483629,
+      "mrr": 0.2928968253968254,
+      "modality_balance": 1.0,
+      "latency": 0.005556964874267578
+    }
+  },
+  "pf=0.0_num_trials=5": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.023809523809523808,
+      "modality_balance": 1.0,
+      "latency": 0.00734398365020752
+    },
+    "flickr30k": {
+      "precision@10": 0.1,
+      "ndcg@10": 0.8249352129483629,
+      "mrr": 0.2928968253968254,
+      "modality_balance": 1.0,
+      "latency": 0.02274031639099121
+    }
+  },
+  "pf=0.0_num_trials=10": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.023809523809523808,
+      "modality_balance": 1.0,
+      "latency": 0.01330859661102295
+    },
+    "flickr30k": {
+      "precision@10": 0.1,
+      "ndcg@10": 0.8249352129483629,
+      "mrr": 0.2928968253968254,
+      "modality_balance": 1.0,
+      "latency": 0.04406230449676514
+    }
+  },
+  "pf=0.0_num_trials=20": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.023809523809523808,
+      "modality_balance": 1.0,
+      "latency": 0.025734734535217286
+    },
+    "flickr30k": {
+      "precision@10": 0.1,
+      "ndcg@10": 0.8249352129483629,
+      "mrr": 0.2928968253968254,
+      "modality_balance": 1.0,
+      "latency": 0.08636820316314697
+    }
+  },
+  "pf=0.2_num_trials=1": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.09327713706898125,
+      "modality_balance": 1.0,
+      "latency": 0.0019550323486328125
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.009786653012459463,
+      "modality_balance": 1.0,
+      "latency": 0.00637969970703125
+    }
+  },
+  "pf=0.2_num_trials=5": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.04212921925893831,
+      "modality_balance": 1.0,
+      "latency": 0.007560348510742188
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.018606731875719217,
+      "modality_balance": 1.0,
+      "latency": 0.02497830390930176
+    }
+  },
+  "pf=0.2_num_trials=10": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.06633147232461789,
+      "modality_balance": 1.0,
+      "latency": 0.01488635540008545
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.01372325591075591,
+      "modality_balance": 1.0,
+      "latency": 0.04877135753631592
+    }
+  },
+  "pf=0.2_num_trials=20": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.06682756146696434,
+      "modality_balance": 1.0,
+      "latency": 0.028565740585327147
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.00805454415649318,
+      "modality_balance": 1.0,
+      "latency": 0.09570908546447754
+    }
+  },
+  "pf=0.4_num_trials=1": {
+    "synthetic": {
+      "precision@10": 0.04,
+      "ndcg@10": 1.0,
+      "mrr": 0.08941621992348736,
+      "modality_balance": 1.0,
+      "latency": 0.0018404006958007812
+    },
+    "flickr30k": {
+      "precision@10": 0.01,
+      "ndcg@10": 0.813927665525646,
+      "mrr": 0.027191876750700283,
+      "modality_balance": 1.0,
+      "latency": 0.00622107982635498
+    }
+  },
+  "pf=0.4_num_trials=5": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.07616069116069116,
+      "modality_balance": 1.0,
+      "latency": 0.007503628730773926
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.003869047619047619,
+      "modality_balance": 1.0,
+      "latency": 0.02492678165435791
+    }
+  },
+  "pf=0.4_num_trials=10": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.1419619506841638,
+      "modality_balance": 1.0,
+      "latency": 0.014680314064025878
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.018097398669086513,
+      "modality_balance": 1.0,
+      "latency": 0.04864356517791748
+    }
+  },
+  "pf=0.4_num_trials=20": {
+    "synthetic": {
+      "precision@10": 0.030000000000000006,
+      "ndcg@10": 1.0,
+      "mrr": 0.05083983093901014,
+      "modality_balance": 1.0,
+      "latency": 0.028462982177734374
+    },
+    "flickr30k": {
+      "precision@10": 0.01,
+      "ndcg@10": 0.813927665525646,
+      "mrr": 0.015880376344086018,
+      "modality_balance": 1.0,
+      "latency": 0.09593257904052735
+    }
+  },
+  "pf=0.6_num_trials=1": {
+    "synthetic": {
+      "precision@10": 0.0,
+      "ndcg@10": 1.0,
+      "mrr": 0.03643222245290039,
+      "modality_balance": 1.0,
+      "latency": 0.0021162986755371093
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.017215909090909094,
+      "modality_balance": 1.0,
+      "latency": 0.006225156784057617
+    }
+  },
+  "pf=0.6_num_trials=5": {
+    "synthetic": {
+      "precision@10": 0.0,
+      "ndcg@10": 1.0,
+      "mrr": 0.03009696687328266,
+      "modality_balance": 1.0,
+      "latency": 0.007639169692993164
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.01275021195439168,
+      "modality_balance": 1.0,
+      "latency": 0.025127458572387695
+    }
+  },
+  "pf=0.6_num_trials=10": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.04435123849083805,
+      "modality_balance": 1.0,
+      "latency": 0.01472327709197998
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.015087719298245613,
+      "modality_balance": 1.0,
+      "latency": 0.048809933662414554
+    }
+  },
+  "pf=0.6_num_trials=20": {
+    "synthetic": {
+      "precision@10": 0.01,
+      "ndcg@10": 1.0,
+      "mrr": 0.03721136992808819,
+      "modality_balance": 1.0,
+      "latency": 0.029010200500488283
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.009085638499431604,
+      "modality_balance": 1.0,
+      "latency": 0.0961993932723999
+    }
+  },
+  "pf=0.8_num_trials=1": {
+    "synthetic": {
+      "precision@10": 0.0,
+      "ndcg@10": 1.0,
+      "mrr": 0.02939624734599579,
+      "modality_balance": 1.0,
+      "latency": 0.0019724130630493163
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.013906580175930022,
+      "modality_balance": 1.0,
+      "latency": 0.006370830535888672
+    }
+  },
+  "pf=0.8_num_trials=5": {
+    "synthetic": {
+      "precision@10": 0.04,
+      "ndcg@10": 1.0,
+      "mrr": 0.09253056884635831,
+      "modality_balance": 1.0,
+      "latency": 0.007624697685241699
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.014258689556755516,
+      "modality_balance": 1.0,
+      "latency": 0.02509779930114746
+    }
+  },
+  "pf=0.8_num_trials=10": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.053747858752665426,
+      "modality_balance": 1.0,
+      "latency": 0.014633655548095703
+    },
+    "flickr30k": {
+      "precision@10": 0.01,
+      "ndcg@10": 0.813927665525646,
+      "mrr": 0.02114551083591331,
+      "modality_balance": 1.0,
+      "latency": 0.048825192451477054
+    }
+  },
+  "pf=0.8_num_trials=20": {
+    "synthetic": {
+      "precision@10": 0.0,
+      "ndcg@10": 1.0,
+      "mrr": 0.027031591819279954,
+      "modality_balance": 1.0,
+      "latency": 0.028934001922607422
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.014236570795394324,
+      "modality_balance": 1.0,
+      "latency": 0.09602892398834229
+    }
+  },
+  "pf=1.0_num_trials=1": {
+    "synthetic": {
+      "precision@10": 0.0,
+      "ndcg@10": 1.0,
+      "mrr": 0.03878824058040641,
+      "modality_balance": 1.0,
+      "latency": 0.001957392692565918
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.002040816326530612,
+      "modality_balance": 1.0,
+      "latency": 0.00629885196685791
+    }
+  },
+  "pf=1.0_num_trials=5": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.10154044992936498,
+      "modality_balance": 1.0,
+      "latency": 0.007555079460144043
+    },
+    "flickr30k": {
+      "precision@10": 0.01,
+      "ndcg@10": 0.8322735778968408,
+      "mrr": 0.020666666666666667,
+      "modality_balance": 1.0,
+      "latency": 0.024924445152282714
+    }
+  },
+  "pf=1.0_num_trials=10": {
+    "synthetic": {
+      "precision@10": 0.030000000000000006,
+      "ndcg@10": 1.0,
+      "mrr": 0.06777443466209136,
+      "modality_balance": 1.0,
+      "latency": 0.014834952354431153
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.012873228744939272,
+      "modality_balance": 1.0,
+      "latency": 0.04905240535736084
+    }
+  },
+  "pf=1.0_num_trials=20": {
+    "synthetic": {
+      "precision@10": 0.02,
+      "ndcg@10": 1.0,
+      "mrr": 0.05003937868640387,
+      "modality_balance": 1.0,
+      "latency": 0.02867288589477539
+    },
+    "flickr30k": {
+      "precision@10": 0.0,
+      "ndcg@10": 0.8249352129483627,
+      "mrr": 0.011708304721326463,
+      "modality_balance": 1.0,
+      "latency": 0.09581522941589356
+    }
+  }
+}

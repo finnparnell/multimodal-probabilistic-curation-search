@@ -1,0 +1,82 @@
+{
+  "full_method": {
+    "synthetic": {
+      "precision@10": 0.024000000000000004,
+      "precision@50": 0.0316,
+      "ndcg@10": 1.0,
+      "ndcg@50": 0.5578293338222546,
+      "mrr": 0.10128896257481275,
+      "modality_balance": 1.0,
+      "latency": 0.014747242927551269
+    },
+    "flickr30k": {
+      "precision@10": 0.015,
+      "precision@50": 0.0068000000000000005,
+      "ndcg@10": 0.8219221905466769,
+      "ndcg@50": 0.4744814237611156,
+      "mrr": 0.06505273792875244,
+      "modality_balance": 1.0,
+      "latency": 0.04854631900787353
+    }
+  },
+  "without_normalization": {
+    "synthetic": {
+      "precision@10": 0.004,
+      "precision@50": 0.01,
+      "ndcg@10": 1.0,
+      "ndcg@50": 0.5597970547231627,
+      "mrr": 0.03450041193400541,
+      "modality_balance": 1.0,
+      "latency": 0.001777176856994629
+    },
+    "flickr30k": {
+      "precision@10": 0.01,
+      "precision@50": 0.01,
+      "ndcg@10": 0.8249352129483628,
+      "ndcg@50": 0.46834620530971977,
+      "mrr": 0.05187377517639621,
+      "modality_balance": 1.0,
+      "latency": 0.005936400890350342
+    }
+  },
+  "without_probabilistic": {
+    "synthetic": {
+      "precision@10": 0.036000000000000004,
+      "precision@50": 0.028399999999999998,
+      "ndcg@10": 1.0,
+      "ndcg@50": 0.5787360366823963,
+      "mrr": 0.1392362507686783,
+      "modality_balance": 1.0,
+      "latency": 0.001397705078125
+    },
+    "flickr30k": {
+      "precision@10": 0.013000000000000003,
+      "precision@50": 0.0078000000000000005,
+      "ndcg@10": 0.8308059049071451,
+      "ndcg@50": 0.4827005184154296,
+      "mrr": 0.0805519153227801,
+      "modality_balance": 1.0,
+      "latency": 0.006045966148376465
+    }
+  },
+  "without_multi_trial": {
+    "synthetic": {
+      "precision@10": 0.027999999999999997,
+      "precision@50": 0.0264,
+      "ndcg@10": 1.0,
+      "ndcg@50": 0.570470660385075,
+      "mrr": 0.11926312998626268,
+      "modality_balance": 1.0,
+      "latency": 0.001867055892944336
+    },
+    "flickr30k": {
+      "precision@10": 0.01,
+      "precision@50": 0.006,
+      "ndcg@10": 0.8231006217112433,
+      "ndcg@50": 0.47181027806101183,
+      "mrr": 0.05568975845669578,
+      "modality_balance": 1.0,
+      "latency": 0.006327893733978272
+    }
+  }
+}

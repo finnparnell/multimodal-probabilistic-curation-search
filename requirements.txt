@@ -1,0 +1,27 @@
+# Core dependencies
+numpy<2
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+tqdm>=4.64.0
+pandas>=1.5.0
+
+# Additional dependencies for evaluation framework
+scipy>=1.10.0
+seaborn>=0.12.0
+joblib>=1.2.0
+pyarrow>=11.0.0
+h5py>=3.8.0
+
+# Efficient similarity search (for baselines)
+faiss-cpu>=1.7.4
+
+# For working with multimodal data
+pillow>=9.4.0
+nltk>=3.8.1
+
+# JSON handling for results
+simplejson>=3.18.0
+
+# Optional: uncomment if needed for specific datasets
+# tensorflow-macos>=2.12.0  # M1-optimized TensorFlow
+# torch>=2.0.0  # PyTorch with M1 support
